@@ -11,7 +11,15 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^3.1.1",
+    "@barba/core": "^2.9.7",
     "astro": "^2.3.0",
+    "gsap": "^3.11.5",
     "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {
+    "@swup/a11y-plugin": "^3.0.0",
+    "@swup/head-plugin": "^1.3.0",
+    "@swup/slide-theme": "^1.0.5",
+    "swup": "^3.0.6"
   }
 }

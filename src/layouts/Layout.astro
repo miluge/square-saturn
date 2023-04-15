@@ -16,9 +16,12 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body data-barba="wrapper">
 		<Navbar />
-		<slot />
+		<main data-barba="container" data-barba-namespace="home">
+			<slot />
+		</main>
+		<script type="module" src="src/assets/js/app.js"></script>
 	</body>
 </html>
 
